@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cellular Automaton</title>
+  <style>
+    table { border-color: #eeeeee; }
+    td {
+      width: 10px;
+      height: 10px;
+    }
+    td.black { background: #000000;}
+    td.white { background: #ffffff;}
+    #pane { margin-bottom: 24px }
+  </style>
+</head>
+<body>
+  <div id="pane"></div>
+
+  <button onclick="stop()">暂停</button>
+  <button onclick="run()">开始</button>
+  <button onclick="nextStep()">下一步</button>
+  <button onclick="edit()">编辑</button>
+
+  <script src="./index.js"></script>
+</body>
+</html>

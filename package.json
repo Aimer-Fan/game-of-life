@@ -1,0 +1,24 @@
+{
+  "name": "game-of-life",
+  "version": "1.0.0",
+  "description": "Cellular Automata(Game of Life)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aimer-Fan/game-of-life.git"
+  },
+  "keywords": [
+    "game-of-life",
+    "cellular-automata",
+    "CA"
+  ],
+  "author": "AimerFan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aimer-Fan/game-of-life/issues"
+  },
+  "homepage": "https://github.com/Aimer-Fan/game-of-life#readme"
+}
